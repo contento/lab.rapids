@@ -1,0 +1,8 @@
+# TODO:
+name: cuda-test
+channels:
+  - defaults
+dependencies:
+  - 
+  - pandas
+  
