@@ -11,9 +11,6 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-py310_23.3.1-0-Linux-x86_64.
 # run script
 sh Anaconda-latest-Linux-x86_64.sh
 
-# Install CUDA Toolkit ???
-# sudo nala install cuda-toolkit -y
-
 # RAPIDS Coda
 conda create -n rapids-23.04 -c rapidsai -c conda-forge -c nvidia rapids=23.04 python=3.10 cudatoolkit=11.8
 
@@ -22,7 +19,8 @@ conda activate rapids-23.04
 
 ```
 
-## Conda Dependencies (TODO: convert to YAML)
+---
+## [TODO] Conda Dependencies 
 
 See [environment.yaml](./environment.yaml)
 
